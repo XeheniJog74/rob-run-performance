@@ -90,3 +90,8 @@ cmake --build build --config Release
 
 ---
 <sub>Indexed tags: rob-run-performance, optimizer, fps, ping, boost, optimization, gaming-tools, performance, rob-run, cli, developer-tools, open-source, windows, automation, productivity, cpp, portable, prebuilt, tools</sub>
+
+## Keywords
+
+rob-run optimizer fps ping boost optimization gaming-tools performance rob-run-performance rr-boost-tool rob-run-optimizer windows portable prebuilt x64 free download
+related: rob-run, optimizer, fps, ping, boost, optimization, gaming-tools, performance
